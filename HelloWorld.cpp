@@ -271,7 +271,6 @@ int main() {
 	//double num2;
 	//double result;
 
-	//std::cout << "********************\n" ;
 
 	//std::cout << "Please enter a operator (+ - * /): ";
 	//std::cin >> op;
@@ -303,7 +302,60 @@ int main() {
 	//		std::cout << "The operator cannot be used.\n";
 	//	
 	//}
-	//std::cout << "********************\n";
+	/*
+	* Ternary operator (in-line if statement)
+	*/
+
+	//int ternaryTest = 64;
+
+	//ternaryTest >= 60 ? std::cout << "OOO" : std::cout << "Fuck you!";
+	
+	//int oddTest = 9;
+	//oddTest % 2 == 1 ? std::cout << "ODD" : std::cout << "EVEN";
+
+	/*
+	* Logical Operators
+	*/
+	
+	//int temp;
+
+	//std::cout << "Enter temp: ";
+	//std::cin >> temp;
+
+	//if (temp > 0 && temp < 30) {} // both need to be true
+	//if (temp > 0 || temp < 30) {} // one one has to be true
+	//if (!temp > 0) {} // reverse
+	
+
+	/*
+	* Temp conversion program
+	*/
+	//double temp;
+	//char unit;
+
+	//std::cout << "F = Fahrenheit\n";
+	//std::cout << "C = Celsius\n";
+
+	//std::cout << "What unit are you converting to: ";
+	//std::cin >> unit;
+
+	//if (unit == 'F' || unit == 'f') {
+	//	std::cout << "Enter the temperature in Celsius: ";
+	//	std::cin >> temp;
+
+	//	temp = (1.8 * temp) + 32.0;
+	//	std::cout << "Temperature is " << temp << " F\n";
+	//}
+	//else if (unit == 'C' || unit == 'c') {
+	//	std::cout << "Enter the temperature in Fahrenheit: ";
+	//	std::cin >> temp;
+
+	//	temp = (temp - 32) / 1.8;
+	//	std::cout << "Temperature is " << temp << " C\n";
+	//}
+	//else {
+	//	std::cout << "That is not a valid temperature idiot.\n";
+	//}
 
 	return 0;
 }
