@@ -357,5 +357,98 @@ int main() {
 	//	std::cout << "That is not a valid temperature idiot.\n";
 	//}
 
+	/*
+	* basic string functions
+	*/
+
+	//std::string basicString;
+
+	//std::cout << "Enter string: ";
+	//std::getline(std::cin, basicString);
+
+	//std::cout << basicString.length() << std::endl;
+	//std::cout << basicString.at(2);
+
+	/*
+	* Loops
+	*/
+
+
+
+	// while loop
+
+	//std::string whileloopString;
+
+	//while (whileloopString.empty()) {
+	//	std::cout << "Enter a string: ";
+	//	std::getline(std::cin, whileloopString);
+	//}
+
+	//std::cout << "ye " << whileloopString << std::endl;
+
+
+
+	// Do while loop
+
+	//int number;
+
+	//do {
+	//	std::cout << "Etner a postitive #: ";
+	//	std::cin >> number;
+	//} while (number < 0);
+
+	//std::cout << "# = " << number;
+
+
+	// For loops
+
+	//for (int i = 1; i <= 10; i++) {
+	//	std::cout << i << std::endl;
+	//}
+
+	//std::cout << "WHOOOOOO";
+
+
+	/*
+	* Break & Continue
+	*/
+
+	//for (int i = 0; i <= 20; i++)
+	//{
+	//	if (i == 13) {
+	//		//break; // Break stops the loop
+	//		continue; // Stops this skips this loop
+	//	}
+	//	std::cout << i << std::endl;
+	//}
+
+	/*
+	* Nested Loop
+	*/
+
+	//int rows;
+	//int colums;
+
+	//char symbol;
+
+	//std::cout << "Rows: ";
+	//std::cin >> rows;
+	//std::cout << "Colums: ";
+	//std::cin >> colums;
+
+	//std::cout << "Symbol: ";
+	//std::cin >> symbol;
+
+	//for (int i = 1; i <= rows; i++) {
+
+	//	for (int j = 1; j <= colums; j++) {
+	//		std::cout << symbol;
+	//	}
+
+	//	std::cout << '\n';
+
+	//}
+
+
 	return 0;
 }
